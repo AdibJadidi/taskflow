@@ -20,7 +20,7 @@ const DraggableTaskCard = ({ task }: { task: Task }) => {
       {...attributes}
       className="touch-none" // جلوگیری از تداخل اسکرول در موبایل
     >
-      <TaskCard task={task} />
+      <TaskCard task={task} onEdit={() => {}} />
     </div>
   );
 };
